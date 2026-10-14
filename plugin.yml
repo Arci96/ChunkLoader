@@ -1,0 +1,14 @@
+name: ChunkLoader
+version: '${version}'
+main: de.example.chunkloader.ChunkLoaderPlugin
+api-version: '1.21'
+description: Chunks dauerhaft geladen halten
+commands:
+  chunk:
+    description: Chunks dauerhaft laden oder entladen
+    usage: /chunk <load|unload|list> [radius]
+    permission: chunkloader.use
+permissions:
+  chunkloader.use:
+    description: Darf Chunks dauerhaft laden
+    default: op

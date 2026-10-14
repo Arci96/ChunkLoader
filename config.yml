@@ -1,0 +1,5 @@
+# Maximaler Radius fuer /chunk load <radius> (0 = nur der eigene Chunk, 1 = 3x3 Chunks, 2 = 5x5 ...)
+max-radius: 2
+
+# Maximale Anzahl dauerhaft geladener Chunks auf dem ganzen Server
+max-chunks: 50
